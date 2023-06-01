@@ -4,7 +4,7 @@ Debes tener instalado node.js y npm u otra alternativa y realizar los siguientes
 
 - Instala las dependencias: ```` npm install ````
 - Ejecuta la app: ```` npm start````
-- Elije la opción que prefieras de la consola, puedes ejecutarlo en la web o en tu dispositivo movil instalando la app moviloficial de expo y escaneando el código QR.
+- Elije la opción que prefieras de la consola, puedes ejecutarlo en la web o en tu dispositivo movil instalando la app movil oficial de expo para Android o iOS en las tiendas oficiales y escaneando el código QR que aparece en consola.
 
 # Requerimientos
 -----------------
