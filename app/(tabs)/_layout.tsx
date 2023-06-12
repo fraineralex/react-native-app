@@ -17,6 +17,12 @@ export default () => {
               {focused ? 'Inicio' : 'inicio'}
             </Text>
           ),
+          headerTitle: () => (
+            <Text style={{ textTransform: 'capitalize', textAlign: 'center', fontWeight: 'bold' }}>
+              {'Inicio'}
+            </Text>
+          ),
+          headerTitleAlign: 'center',
         }}
       />
       <Tabs.Screen
@@ -30,6 +36,12 @@ export default () => {
               {focused ? 'Sumar' : 'sumar'}
             </Text>
           ),
+          headerTitle: () => (
+            <Text style={{ textTransform: 'capitalize', textAlign: 'center', fontWeight: 'bold' }}>
+              {'Sumar'}
+            </Text>
+          ),
+          headerTitleAlign: 'center',
         }}
       />
       <Tabs.Screen
@@ -43,6 +55,12 @@ export default () => {
               {focused ? 'Traductor' : 'traductor'}
             </Text>
           ),
+          headerTitle: () => (
+            <Text style={{ textTransform: 'capitalize', textAlign: 'center', fontWeight: 'bold' }}>
+              {'Traductor'}
+            </Text>
+          ),
+          headerTitleAlign: 'center',
         }}
       />
       <Tabs.Screen
@@ -56,6 +74,12 @@ export default () => {
               {focused ? 'Tabla' : 'tabla'}
             </Text>
           ),
+          headerTitle: () => (
+            <Text style={{ textTransform: 'capitalize', textAlign: 'center', fontWeight: 'bold' }}>
+              {'Tabla'}
+            </Text>
+          ),
+          headerTitleAlign: 'center',
         }}
       />
       <Tabs.Screen
@@ -69,6 +93,12 @@ export default () => {
               {focused ? 'Video' : 'video'}
             </Text>
           ),
+          headerTitle: () => (
+            <Text style={{ textTransform: 'capitalize', textAlign: 'center', fontWeight: 'bold' }}>
+              {'Video'}
+            </Text>
+          ),
+          headerTitleAlign: 'center',
         }}
       />
     </Tabs>
